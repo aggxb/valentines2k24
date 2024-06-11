@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background: #f9a8d4;
+  background: #fbcfe8;
 }
 
 ul {
@@ -39,7 +39,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 71.6vh;
   gap: 20px;
   padding: 2.5rem 0 2.5rem 1.5rem;
   background: #faf5ff;
