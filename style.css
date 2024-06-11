@@ -1,0 +1,100 @@
+body, h1, p, q, ul, li, img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background: #faf5ff;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  height: 300px;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  background: #fbcfe8;
+}
+
+.header p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: #27272a;
+}
+
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2.5rem 0 2.5rem 1.5rem;
+}
+
+.main-content h1 {
+  font-size: 1.25rem;
+  text-align: center;
+  padding-right: 1.5rem;
+  color: #f9a8d4;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: end;
+  gap: 5px;
+  overflow-x: scroll;
+  padding-right: 1.5rem;
+}
+
+.gallery::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: #faf5ff;
+}
+
+.gallery::-webkit-scrollbar-thumb {
+  background: #f9a8d4;
+  border-radius: 10px;
+}
+
+#quote {
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: center;
+  padding-right: 1.5rem;
+  color: #f9a8d4;
+}
+
+.playlist {
+  padding-right: 1.5rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 1.25rem;
+  background: #fbcfe8;
+}
+
+.footer p, .footer span{
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+  color: #27272a;
+}
